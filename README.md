@@ -27,10 +27,10 @@ O mais facil é arrastar o ficheiro para o terminal como na imagem.
 3. Mude para o diretório "beeware-tutorial": cd beeware-tutorial
 4. Mude para o diretório "planeapp": cd planeapp
 5. Execute o comando: briefcase run -u.
-Resultado:
+### Resultado:
 ![Web App](images/App.png)
 
-Caso receba um erro porque o Briefcase não está instalado, execute o comando python -m pip install briefcase.
+Caso receba um erro porque o Briefcase não está instalado, execute o comando `python -m pip install briefcase`.
 
 
 
