@@ -11,7 +11,7 @@ O mais facil é arrastar o ficheiro para o terminal como na imagem.
 ![Ativar envirement](images/sourceWeb.png)
 3. Execute o comando `flask run`.
 4. Abrir um navegador: http://127.0.0.1:5000
-Resultado:
+    Resultado:
 ![Web App](images/Web.png)
 
 Caso receba um erro porque o Flask não está instalado, execute o comando `pip install Flask`.
