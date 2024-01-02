@@ -15,7 +15,17 @@
             margin: 0;
             padding: 0;
         }
+        .fade {
+        transition: background-color 0.5s linear;
+    }
 
+    .fade-in {
+    background-color: white;
+    }
+
+    .fade-out {
+    background-color: rgb(57, 215, 247);
+    }
         #map {
             height: 600px;
             width: 1300px;
@@ -33,15 +43,6 @@
             font-weight: bold;
         }
 
-        .error-message {
-            color: red;
-            background-color: #ffe5e5;
-        }
-
-        .success-message {
-            color: green;
-            background-color: #e5ffe5;
-        }
 
         h2 {
             margin-bottom: 10px;
@@ -71,9 +72,12 @@
     </style>
 </head>
 <body>
+    
     <h2>Flight States Map</h2>
+
     <div class="error-message" id="errorMessage"></div>
     <div class="success-message" id="successMessage"></div>
+
 
     <div id="filter-section">
         <div>
@@ -98,7 +102,13 @@
         </div>
     </div>
 
+
     <div id="map"></div>
+
+
+    <footer>
+        <p>Made by: Francisco Reis</p>
+    </footer>
 
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
