@@ -12,7 +12,7 @@ O mais facil é arrastar o ficheiro para o terminal como na imagem.
 3. Execute o comando `flask run`.
 4. Abrir um navegador: http://127.0.0.1:5000
 ### Resultado:
-![Web App](images/Web.png)
+![Web App](images/App.png)
 
 Caso receba um erro porque o Flask não está instalado, execute o comando `pip install Flask`.
 
@@ -28,7 +28,7 @@ O mais facil é arrastar o ficheiro para o terminal como na imagem.
 4. Mude para o diretório "planeapp": cd planeapp
 5. Execute o comando: briefcase run -u.
 ### Resultado:
-![Web App](images/App.png)
+![Web App](images/App2.png)
 
 Caso receba um erro porque o Briefcase não está instalado, execute o comando `python -m pip install briefcase`.
 
